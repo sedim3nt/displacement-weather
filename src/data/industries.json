@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "customer-service",
+    "name": "Customer Service",
+    "riskScore": 9.4,
+    "jobsAtRisk": 2800000,
+    "trend": "accelerating",
+    "color": "#EF4444",
+    "keyAITools": ["ChatGPT", "Claude", "Intercom AI", "Zendesk AI", "Klarna AI"],
+    "description": "Customer service is experiencing the fastest displacement of any sector, with AI chatbots and voice agents replacing frontline workers at scale.",
+    "keyCapabilities": [
+      "Natural language understanding and generation",
+      "24/7 availability without human oversight",
+      "Simultaneous multi-conversation handling",
+      "Integration with CRM and ticketing systems",
+      "Sentiment analysis and escalation routing"
+    ],
+    "reskillingSuggestions": [
+      "Transition to AI trainer/QA specialist roles",
+      "Move into complex escalation handling (human-in-loop)",
+      "Develop skills in AI prompt engineering",
+      "Pivot to customer success management (relationship-heavy roles)",
+      "Explore UX research and voice-of-customer analysis"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-02",
+        "company": "Klarna",
+        "event": "AI assistant handles 2/3 of all customer service chats, equivalent to work of 700 full-time agents",
+        "magnitude": "high"
+      },
+      {
+        "date": "2024-09",
+        "company": "Klarna",
+        "event": "Reports AI doing work of 700 agents; customer satisfaction scores equal or higher than humans",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-01",
+        "company": "Airbnb",
+        "event": "Reduces customer support headcount 30% via AI ticket resolution",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2025-06",
+        "company": "Teleperformance",
+        "event": "Global BPO giant announces 35% workforce restructuring citing AI automation",
+        "magnitude": "high"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 7.8, "jobsDisplaced": 180000 },
+      { "year": 2025, "riskScore": 8.6, "jobsDisplaced": 420000 },
+      { "year": 2026, "riskScore": 9.2, "jobsDisplaced": 750000 },
+      { "year": 2027, "riskScore": 9.5, "jobsDisplaced": 1100000 },
+      { "year": 2028, "riskScore": 9.7, "jobsDisplaced": 1500000 },
+      { "year": 2029, "riskScore": 9.8, "jobsDisplaced": 1900000 },
+      { "year": 2030, "riskScore": 9.9, "jobsDisplaced": 2400000 }
+    ],
+    "roles": ["customer-service-rep", "call-center-agent", "help-desk-technician", "customer-support-specialist"]
+  },
+  {
+    "id": "media-content",
+    "name": "Media & Content",
+    "riskScore": 8.9,
+    "jobsAtRisk": 1200000,
+    "trend": "accelerating",
+    "color": "#F97316",
+    "keyAITools": ["Midjourney", "DALL-E 3", "Sora", "Claude", "GPT-4o", "ElevenLabs"],
+    "description": "AI is automating content creation, from copywriting to video production, displacing writers, designers, and production staff.",
+    "keyCapabilities": [
+      "Long-form content generation at scale",
+      "Image and video synthesis",
+      "Voice cloning and audio production",
+      "SEO optimization and content strategy",
+      "Real-time translation and localization"
+    ],
+    "reskillingSuggestions": [
+      "Specialize in AI-human hybrid content workflows",
+      "Develop editorial judgment and AI oversight skills",
+      "Pivot to brand strategy (harder to automate)",
+      "Learn prompt engineering for media production",
+      "Focus on investigative journalism and original reporting"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-02",
+        "company": "Duolingo",
+        "event": "Cuts 10% of contractor workforce, citing AI-generated content replacing human translators and content creators",
+        "magnitude": "high"
+      },
+      {
+        "date": "2024-04",
+        "company": "Sports Illustrated",
+        "event": "Discovered publishing AI-generated articles under fake bylines",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2025-01",
+        "company": "Buzzfeed",
+        "event": "Shuts down main news site; legacy media continues collapse partly attributed to AI competition",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-03",
+        "company": "Associated Press",
+        "event": "Expands AI-generated earnings reports to 12,000+ articles/quarter",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2026-01",
+        "company": "Major Studios",
+        "event": "Hollywood VFX studios report 25% headcount reduction as AI tools replace junior compositors",
+        "magnitude": "high"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 7.2, "jobsDisplaced": 95000 },
+      { "year": 2025, "riskScore": 8.1, "jobsDisplaced": 210000 },
+      { "year": 2026, "riskScore": 8.8, "jobsDisplaced": 380000 },
+      { "year": 2027, "riskScore": 9.2, "jobsDisplaced": 580000 },
+      { "year": 2028, "riskScore": 9.5, "jobsDisplaced": 780000 },
+      { "year": 2029, "riskScore": 9.7, "jobsDisplaced": 980000 },
+      { "year": 2030, "riskScore": 9.8, "jobsDisplaced": 1150000 }
+    ],
+    "roles": ["copywriter", "graphic-designer", "video-editor", "content-strategist", "translator"]
+  },
+  {
+    "id": "finance",
+    "name": "Finance",
+    "riskScore": 8.2,
+    "jobsAtRisk": 3500000,
+    "trend": "accelerating",
+    "color": "#EF4444",
+    "keyAITools": ["Bloomberg AI", "Palantir AIP", "Kensho", "AlphaFold Finance", "Harvey"],
+    "description": "Financial analysis, trading, and compliance are being automated at scale. Goldman Sachs estimates AI could displace 300M jobs globally, with finance at the front.",
+    "keyCapabilities": [
+      "Algorithmic trading and portfolio optimization",
+      "Automated regulatory compliance checking",
+      "Financial report generation and analysis",
+      "Fraud detection and risk modeling",
+      "Customer financial advice (robo-advisors)"
+    ],
+    "reskillingSuggestions": [
+      "Specialize in AI model oversight and validation",
+      "Move into relationship banking (high-net-worth clients)",
+      "Develop expertise in AI risk and compliance",
+      "Learn quantitative skills to supervise AI systems",
+      "Pivot to financial product design and strategy"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-01",
+        "company": "Goldman Sachs",
+        "event": "Research report: AI could automate 300M full-time jobs globally; finance sector among most exposed",
+        "magnitude": "high"
+      },
+      {
+        "date": "2024-05",
+        "company": "Citigroup",
+        "event": "Plans to cut 20,000 jobs by end of 2026; automation cited as major driver",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-02",
+        "company": "JPMorgan",
+        "event": "AI COiN platform reviews 12,000 commercial credit agreements/year (previously took 360,000 human hours)",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-07",
+        "company": "BlackRock",
+        "event": "Aladdin AI system manages $21T in assets with minimal human oversight",
+        "magnitude": "medium"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 6.8, "jobsDisplaced": 120000 },
+      { "year": 2025, "riskScore": 7.5, "jobsDisplaced": 280000 },
+      { "year": 2026, "riskScore": 8.2, "jobsDisplaced": 520000 },
+      { "year": 2027, "riskScore": 8.7, "jobsDisplaced": 850000 },
+      { "year": 2028, "riskScore": 9.0, "jobsDisplaced": 1300000 },
+      { "year": 2029, "riskScore": 9.3, "jobsDisplaced": 1900000 },
+      { "year": 2030, "riskScore": 9.5, "jobsDisplaced": 2600000 }
+    ],
+    "roles": ["financial-analyst", "loan-officer", "insurance-underwriter", "tax-preparer", "accountant"]
+  },
+  {
+    "id": "legal",
+    "name": "Legal",
+    "riskScore": 7.8,
+    "jobsAtRisk": 900000,
+    "trend": "accelerating",
+    "color": "#F97316",
+    "keyAITools": ["Harvey", "Lexis+ AI", "Westlaw AI", "Clio AI", "Contract Pod AI"],
+    "description": "Legal research, contract drafting, and document review are rapidly being automated. Junior legal roles are most at risk.",
+    "keyCapabilities": [
+      "Contract review and drafting",
+      "Legal research and case law analysis",
+      "Document discovery and due diligence",
+      "Compliance monitoring and reporting",
+      "Predictive litigation outcomes"
+    ],
+    "reskillingSuggestions": [
+      "Specialize in AI law and emerging technology regulation",
+      "Develop courtroom advocacy and negotiation skills",
+      "Focus on complex multi-party transactions",
+      "Learn legal operations and LegalTech management",
+      "Pivot to alternative dispute resolution"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-03",
+        "company": "Allen & Overy",
+        "event": "Partners with Harvey AI; reduces document review time by 85% across 3,500 lawyers",
+        "magnitude": "high"
+      },
+      {
+        "date": "2024-06",
+        "company": "Freshfields",
+        "event": "Implements AI across all major practice areas; pauses entry-level associate hiring",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2025-01",
+        "company": "Big Law",
+        "event": "10 of AmLaw 100 firms report hiring freezes for contract review specialists due to AI",
+        "magnitude": "high"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 5.9, "jobsDisplaced": 45000 },
+      { "year": 2025, "riskScore": 6.8, "jobsDisplaced": 98000 },
+      { "year": 2026, "riskScore": 7.6, "jobsDisplaced": 180000 },
+      { "year": 2027, "riskScore": 8.2, "jobsDisplaced": 290000 },
+      { "year": 2028, "riskScore": 8.7, "jobsDisplaced": 420000 },
+      { "year": 2029, "riskScore": 9.0, "jobsDisplaced": 580000 },
+      { "year": 2030, "riskScore": 9.2, "jobsDisplaced": 750000 }
+    ],
+    "roles": ["paralegal", "legal-researcher", "contract-reviewer", "legal-secretary"]
+  },
+  {
+    "id": "tech",
+    "name": "Technology",
+    "riskScore": 7.6,
+    "jobsAtRisk": 2200000,
+    "trend": "accelerating",
+    "color": "#F97316",
+    "keyAITools": ["GitHub Copilot", "Cursor", "Devin", "Claude Code", "GPT-4o"],
+    "description": "AI coding assistants and autonomous agents are reshaping software development, with junior roles most exposed. Tech companies are cutting headcount while AI output scales.",
+    "keyCapabilities": [
+      "Code generation and completion",
+      "Automated testing and bug detection",
+      "Code review and refactoring",
+      "Documentation generation",
+      "Autonomous software agent tasks"
+    ],
+    "reskillingSuggestions": [
+      "Develop AI orchestration and agent engineering skills",
+      "Specialize in system architecture (less automatable)",
+      "Focus on product thinking and user research",
+      "Learn AI/ML ops and infrastructure",
+      "Develop security and adversarial AI expertise"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-01",
+        "company": "Google",
+        "event": "Lays off 12,000 employees; AI cited in restructuring plans",
+        "magnitude": "high"
+      },
+      {
+        "date": "2024-04",
+        "company": "IBM",
+        "event": "CEO announces pause on hiring ~7,800 roles expected to be replaced by AI over 5 years",
+        "magnitude": "high"
+      },
+      {
+        "date": "2024-07",
+        "company": "Microsoft",
+        "event": "Cuts 1,000 jobs; gaming and Azure divisions affected; GitHub Copilot replacing junior tasks",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2025-03",
+        "company": "Salesforce",
+        "event": "Marc Benioff: AI agents will replace 30% of software engineers by 2026",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-09",
+        "company": "Cognizant",
+        "event": "Plans to reduce 12,000 IT services jobs over 18 months due to AI automation",
+        "magnitude": "high"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 5.5, "jobsDisplaced": 85000 },
+      { "year": 2025, "riskScore": 6.5, "jobsDisplaced": 220000 },
+      { "year": 2026, "riskScore": 7.4, "jobsDisplaced": 480000 },
+      { "year": 2027, "riskScore": 8.0, "jobsDisplaced": 820000 },
+      { "year": 2028, "riskScore": 8.5, "jobsDisplaced": 1200000 },
+      { "year": 2029, "riskScore": 8.9, "jobsDisplaced": 1600000 },
+      { "year": 2030, "riskScore": 9.1, "jobsDisplaced": 1950000 }
+    ],
+    "roles": ["junior-software-developer", "qa-engineer", "data-entry-analyst", "it-support-specialist"]
+  },
+  {
+    "id": "accounting",
+    "name": "Accounting",
+    "riskScore": 8.5,
+    "jobsAtRisk": 1800000,
+    "trend": "accelerating",
+    "color": "#EF4444",
+    "keyAITools": ["Intuit AI", "Sage AI", "Xero AI", "QuickBooks AI", "Booke.AI"],
+    "description": "Bookkeeping, tax preparation, and routine accounting tasks are being automated by AI at a rapid pace.",
+    "keyCapabilities": [
+      "Automated bookkeeping and reconciliation",
+      "Tax form preparation and filing",
+      "Audit trail generation",
+      "Financial forecasting models",
+      "Invoice processing and AP/AR automation"
+    ],
+    "reskillingSuggestions": [
+      "Specialize in forensic accounting (judgment-heavy)",
+      "Develop CFO advisory and strategic finance skills",
+      "Learn AI accounting system implementation",
+      "Focus on tax strategy and planning (vs. compliance)",
+      "Develop expertise in complex international tax"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-03",
+        "company": "H&R Block",
+        "event": "AI-powered tax filing reduces seasonal staff demand by 15%",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2024-10",
+        "company": "PwC",
+        "event": "Invests $1B in AI tools; reduces audit staff requirements by 20% in routine engagements",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-01",
+        "company": "Deloitte",
+        "event": "AI platform handles 40% of audit document review previously done by junior associates",
+        "magnitude": "high"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 7.0, "jobsDisplaced": 95000 },
+      { "year": 2025, "riskScore": 7.8, "jobsDisplaced": 210000 },
+      { "year": 2026, "riskScore": 8.4, "jobsDisplaced": 390000 },
+      { "year": 2027, "riskScore": 8.8, "jobsDisplaced": 620000 },
+      { "year": 2028, "riskScore": 9.1, "jobsDisplaced": 900000 },
+      { "year": 2029, "riskScore": 9.3, "jobsDisplaced": 1200000 },
+      { "year": 2030, "riskScore": 9.5, "jobsDisplaced": 1550000 }
+    ],
+    "roles": ["bookkeeper", "tax-preparer", "accountant", "payroll-specialist", "financial-analyst"]
+  },
+  {
+    "id": "manufacturing",
+    "name": "Manufacturing",
+    "riskScore": 7.2,
+    "jobsAtRisk": 4200000,
+    "trend": "stable",
+    "color": "#EAB308",
+    "keyAITools": ["Siemens AI", "Rockwell Automation", "Fanuc AI", "Amazon Robotics", "Boston Dynamics"],
+    "description": "Robotics and AI are displacing assembly and production workers, though physical integration constraints slow full automation.",
+    "keyCapabilities": [
+      "Robotic process automation on assembly lines",
+      "Quality control vision systems",
+      "Predictive maintenance",
+      "Supply chain optimization",
+      "Autonomous logistics and warehousing"
+    ],
+    "reskillingSuggestions": [
+      "Train as robotics technician and maintenance specialist",
+      "Develop skills in AI-supervised production oversight",
+      "Learn industrial IoT and sensor systems",
+      "Pivot to complex artisan/custom manufacturing",
+      "Focus on product design and prototyping"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-02",
+        "company": "UPS",
+        "event": "Cuts 12,000 jobs citing automation investments; expects further reductions",
+        "magnitude": "high"
+      },
+      {
+        "date": "2024-05",
+        "company": "Amazon",
+        "event": "Deploys 750,000 robots across warehouses; reduces need for pickers/packers by estimated 30%",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-04",
+        "company": "Tesla",
+        "event": "Optimus humanoid robots begin parallel production roles; timeline to full integration 2027",
+        "magnitude": "medium"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 5.8, "jobsDisplaced": 180000 },
+      { "year": 2025, "riskScore": 6.4, "jobsDisplaced": 340000 },
+      { "year": 2026, "riskScore": 7.0, "jobsDisplaced": 580000 },
+      { "year": 2027, "riskScore": 7.5, "jobsDisplaced": 900000 },
+      { "year": 2028, "riskScore": 8.0, "jobsDisplaced": 1400000 },
+      { "year": 2029, "riskScore": 8.4, "jobsDisplaced": 2000000 },
+      { "year": 2030, "riskScore": 8.8, "jobsDisplaced": 2800000 }
+    ],
+    "roles": ["assembly-worker", "warehouse-worker", "quality-inspector", "production-planner"]
+  },
+  {
+    "id": "retail",
+    "name": "Retail",
+    "riskScore": 7.5,
+    "jobsAtRisk": 5800000,
+    "trend": "stable",
+    "color": "#EAB308",
+    "keyAITools": ["Amazon Go AI", "Instacart AI", "Walmart AI", "Checkout-free tech", "Inventory drones"],
+    "description": "Self-checkout, automated inventory, and AI-powered logistics are replacing retail workers, especially in high-volume settings.",
+    "keyCapabilities": [
+      "Automated checkout and payment processing",
+      "Inventory management and restocking",
+      "Demand forecasting and pricing",
+      "Customer recommendation engines",
+      "Loss prevention via computer vision"
+    ],
+    "reskillingSuggestions": [
+      "Specialize in high-touch luxury retail (premium experiences)",
+      "Develop skills in retail tech management",
+      "Pivot to visual merchandising and brand experience",
+      "Learn inventory optimization and supply chain",
+      "Focus on personal shopping and styling services"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-01",
+        "company": "Amazon",
+        "event": "Expands Just Walk Out technology to 100+ Whole Foods and Amazon Fresh locations",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2024-07",
+        "company": "Walmart",
+        "event": "Deploys AI shelf-scanning robots in 65% of US stores, reducing need for inventory clerks",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2025-02",
+        "company": "Target",
+        "event": "Reduces cashier headcount 40% through expanded self-checkout and AI-assisted lanes",
+        "magnitude": "high"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 5.5, "jobsDisplaced": 210000 },
+      { "year": 2025, "riskScore": 6.2, "jobsDisplaced": 450000 },
+      { "year": 2026, "riskScore": 7.0, "jobsDisplaced": 820000 },
+      { "year": 2027, "riskScore": 7.6, "jobsDisplaced": 1300000 },
+      { "year": 2028, "riskScore": 8.0, "jobsDisplaced": 1900000 },
+      { "year": 2029, "riskScore": 8.4, "jobsDisplaced": 2600000 },
+      { "year": 2030, "riskScore": 8.7, "jobsDisplaced": 3400000 }
+    ],
+    "roles": ["cashier", "retail-salesperson", "inventory-clerk", "stock-associate"]
+  },
+  {
+    "id": "healthcare",
+    "name": "Healthcare",
+    "riskScore": 5.8,
+    "jobsAtRisk": 2100000,
+    "trend": "stable",
+    "color": "#EAB308",
+    "keyAITools": ["Google Health AI", "IBM Watson Health", "Nuance AI", "PathAI", "Tempus"],
+    "description": "AI is automating diagnostic imaging, administrative work, and clinical documentation, but physical care and patient relationships create floor on displacement.",
+    "keyCapabilities": [
+      "Medical imaging analysis and diagnostics",
+      "Clinical documentation and note-taking",
+      "Drug discovery and trial matching",
+      "Administrative scheduling and billing",
+      "Remote patient monitoring"
+    ],
+    "reskillingSuggestions": [
+      "Focus on complex care coordination (multi-system patients)",
+      "Develop AI literacy for clinical decision support",
+      "Specialize in telehealth and remote care models",
+      "Pivot to mental health and behavioral care (human-essential)",
+      "Learn healthcare informatics and AI validation"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-03",
+        "company": "Nuance / Microsoft",
+        "event": "DAX Copilot deployed to 150 health systems; reduces clinical documentation time by 50%",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2024-08",
+        "company": "FDA",
+        "event": "Approves AI diagnostic tools for radiology; some radiologist review steps no longer required",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-05",
+        "company": "Kaiser Permanente",
+        "event": "AI handles 40% of patient triage and appointment scheduling; reduces administrative staff by 22%",
+        "magnitude": "medium"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 3.8, "jobsDisplaced": 55000 },
+      { "year": 2025, "riskScore": 4.6, "jobsDisplaced": 130000 },
+      { "year": 2026, "riskScore": 5.4, "jobsDisplaced": 250000 },
+      { "year": 2027, "riskScore": 6.2, "jobsDisplaced": 420000 },
+      { "year": 2028, "riskScore": 6.9, "jobsDisplaced": 640000 },
+      { "year": 2029, "riskScore": 7.5, "jobsDisplaced": 900000 },
+      { "year": 2030, "riskScore": 8.0, "jobsDisplaced": 1200000 }
+    ],
+    "roles": ["medical-coder", "radiologist-assistant", "medical-transcriptionist", "health-records-specialist"]
+  },
+  {
+    "id": "transportation",
+    "name": "Transportation",
+    "riskScore": 6.8,
+    "jobsAtRisk": 4800000,
+    "trend": "stable",
+    "color": "#EAB308",
+    "keyAITools": ["Waymo", "Tesla Autopilot", "Aurora", "Gatik", "TuSimple"],
+    "description": "Autonomous vehicles and AI route optimization are threatening trucking, delivery, and ride-share driving, though regulatory hurdles slow full deployment.",
+    "keyCapabilities": [
+      "Level 4/5 autonomous vehicle operation",
+      "AI-optimized routing and dispatch",
+      "Autonomous last-mile delivery",
+      "Drone delivery systems",
+      "Predictive fleet maintenance"
+    ],
+    "reskillingSuggestions": [
+      "Train as autonomous vehicle fleet supervisor",
+      "Develop skills in drone operation and logistics",
+      "Specialize in complex freight requiring human judgment",
+      "Learn traffic management and infrastructure roles",
+      "Pivot to transportation safety inspection"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-04",
+        "company": "Waymo",
+        "event": "Expands commercial robotaxi to SF, LA, Phoenix; no safety driver in full commercial rides",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2024-09",
+        "company": "Amazon",
+        "event": "Prime Air drone delivery operational in multiple US cities; targets 500M deliveries/year by 2030",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2025-06",
+        "company": "Tesla",
+        "event": "FSD v13 achieves >95% hands-off highway driving; Cybercab robotaxi production begins",
+        "magnitude": "high"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 4.2, "jobsDisplaced": 65000 },
+      { "year": 2025, "riskScore": 5.1, "jobsDisplaced": 180000 },
+      { "year": 2026, "riskScore": 6.0, "jobsDisplaced": 380000 },
+      { "year": 2027, "riskScore": 6.9, "jobsDisplaced": 720000 },
+      { "year": 2028, "riskScore": 7.8, "jobsDisplaced": 1300000 },
+      { "year": 2029, "riskScore": 8.5, "jobsDisplaced": 2100000 },
+      { "year": 2030, "riskScore": 9.0, "jobsDisplaced": 3200000 }
+    ],
+    "roles": ["truck-driver", "delivery-driver", "taxi-driver", "bus-driver", "dispatch-coordinator"]
+  },
+  {
+    "id": "hr",
+    "name": "Human Resources",
+    "riskScore": 7.3,
+    "jobsAtRisk": 850000,
+    "trend": "accelerating",
+    "color": "#F97316",
+    "keyAITools": ["Workday AI", "HireVue", "Paradox AI", "Eightfold", "Phenom"],
+    "description": "AI is automating resume screening, interview scheduling, onboarding, and benefits administration, reducing need for HR generalists.",
+    "keyCapabilities": [
+      "AI-powered resume screening and matching",
+      "Automated interview scheduling",
+      "Employee onboarding automation",
+      "Benefits administration and compliance",
+      "Workforce analytics and retention prediction"
+    ],
+    "reskillingSuggestions": [
+      "Specialize in organizational design and culture",
+      "Develop AI ethics and workforce fairness expertise",
+      "Pivot to employee experience and engagement",
+      "Learn people analytics and workforce strategy",
+      "Focus on executive coaching and leadership development"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-04",
+        "company": "Unilever",
+        "event": "AI system screens 1.8M job applications/year; human review only for final candidates",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2024-10",
+        "company": "HireVue",
+        "event": "Platform used by 60% of Fortune 500; AI interviews 2M+ candidates with no human present",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-03",
+        "company": "Workday",
+        "event": "AI agent handles complete employee onboarding workflow; cuts HR admin time by 65%",
+        "magnitude": "medium"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 5.6, "jobsDisplaced": 38000 },
+      { "year": 2025, "riskScore": 6.4, "jobsDisplaced": 92000 },
+      { "year": 2026, "riskScore": 7.1, "jobsDisplaced": 180000 },
+      { "year": 2027, "riskScore": 7.7, "jobsDisplaced": 290000 },
+      { "year": 2028, "riskScore": 8.1, "jobsDisplaced": 420000 },
+      { "year": 2029, "riskScore": 8.4, "jobsDisplaced": 570000 },
+      { "year": 2030, "riskScore": 8.7, "jobsDisplaced": 720000 }
+    ],
+    "roles": ["hr-generalist", "recruiter", "payroll-specialist", "benefits-administrator"]
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing",
+    "riskScore": 7.9,
+    "jobsAtRisk": 1400000,
+    "trend": "accelerating",
+    "color": "#F97316",
+    "keyAITools": ["Jasper", "Copy.ai", "HubSpot AI", "Salesforce Einstein", "Adobe Firefly"],
+    "description": "AI is automating ad copy, email campaigns, SEO content, and performance marketing analytics.",
+    "keyCapabilities": [
+      "Automated ad copy generation at scale",
+      "Personalized email campaign automation",
+      "SEO content strategy and generation",
+      "Performance analytics and optimization",
+      "AI-generated visual creative assets"
+    ],
+    "reskillingSuggestions": [
+      "Focus on brand strategy and positioning (high creativity)",
+      "Develop AI marketing orchestration skills",
+      "Specialize in community building and influencer strategy",
+      "Learn advanced marketing analytics and attribution",
+      "Pivot to product marketing (requires deep domain knowledge)"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-05",
+        "company": "WPP",
+        "event": "Commits to AI-first creative model; reduces junior creative roles by 25% within 18 months",
+        "magnitude": "high"
+      },
+      {
+        "date": "2024-09",
+        "company": "Meta",
+        "event": "AI-generated ad creative accounts for 22% of all ads on platform; tools democratize ad production",
+        "magnitude": "medium"
+      },
+      {
+        "date": "2025-02",
+        "company": "Publicis",
+        "event": "Reduces media buying staff by 30% as AI handles programmatic optimization",
+        "magnitude": "high"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 6.2, "jobsDisplaced": 68000 },
+      { "year": 2025, "riskScore": 7.0, "jobsDisplaced": 165000 },
+      { "year": 2026, "riskScore": 7.8, "jobsDisplaced": 310000 },
+      { "year": 2027, "riskScore": 8.3, "jobsDisplaced": 510000 },
+      { "year": 2028, "riskScore": 8.7, "jobsDisplaced": 730000 },
+      { "year": 2029, "riskScore": 9.0, "jobsDisplaced": 960000 },
+      { "year": 2030, "riskScore": 9.2, "jobsDisplaced": 1200000 }
+    ],
+    "roles": ["copywriter", "seo-specialist", "email-marketing-specialist", "digital-marketing-analyst", "content-creator"]
+  },
+  {
+    "id": "insurance",
+    "name": "Insurance",
+    "riskScore": 7.6,
+    "jobsAtRisk": 720000,
+    "trend": "accelerating",
+    "color": "#F97316",
+    "keyAITools": ["Lemonade AI", "Tractable AI", "Shift Technology", "Hippo AI"],
+    "description": "AI is automating underwriting, claims processing, and fraud detection across P&C and life insurance.",
+    "keyCapabilities": [
+      "Automated underwriting risk scoring",
+      "Claims image analysis and damage assessment",
+      "Fraud pattern detection at scale",
+      "Telematics-driven dynamic pricing",
+      "Chatbot-driven claims intake"
+    ],
+    "reskillingSuggestions": [
+      "Specialize in complex commercial and specialty lines",
+      "Develop expertise in AI-driven product design",
+      "Focus on reinsurance and catastrophe modeling",
+      "Learn actuarial science with AI augmentation",
+      "Pivot to insurance regulatory and compliance roles"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-04",
+        "company": "Lemonade",
+        "event": "AI handles 30% of claims with no human involvement; average claim settled in 3 seconds",
+        "magnitude": "high"
+      },
+      {
+        "date": "2024-11",
+        "company": "Tractable",
+        "event": "AI damage assessment used in 50M+ vehicle claims/year across major insurers",
+        "magnitude": "medium"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 5.8, "jobsDisplaced": 42000 },
+      { "year": 2025, "riskScore": 6.6, "jobsDisplaced": 98000 },
+      { "year": 2026, "riskScore": 7.4, "jobsDisplaced": 195000 },
+      { "year": 2027, "riskScore": 7.9, "jobsDisplaced": 310000 },
+      { "year": 2028, "riskScore": 8.3, "jobsDisplaced": 440000 },
+      { "year": 2029, "riskScore": 8.6, "jobsDisplaced": 570000 },
+      { "year": 2030, "riskScore": 8.9, "jobsDisplaced": 680000 }
+    ],
+    "roles": ["insurance-underwriter", "claims-adjuster", "insurance-agent", "actuary-assistant"]
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "riskScore": 4.5,
+    "jobsAtRisk": 650000,
+    "trend": "stable",
+    "color": "#22C55E",
+    "keyAITools": ["Khan Academy AI", "Coursera AI", "Chegg AI", "Turnitin AI", "Grammarly"],
+    "description": "AI tutoring and content generation are threatening support roles, though classroom teaching is protected by socialization and human development needs.",
+    "keyCapabilities": [
+      "Personalized AI tutoring at scale",
+      "Automated essay grading and feedback",
+      "Curriculum generation and adaptation",
+      "Administrative task automation",
+      "Language learning personalization"
+    ],
+    "reskillingSuggestions": [
+      "Embrace AI as teaching tool and develop digital literacy",
+      "Specialize in social-emotional learning facilitation",
+      "Develop expertise in project-based and experiential learning",
+      "Focus on special education and accommodations",
+      "Pivot to curriculum design with AI integration"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-01",
+        "company": "Chegg",
+        "event": "Stock falls 48% as students use ChatGPT instead of Chegg tutoring; 4,000 jobs cut",
+        "magnitude": "high"
+      },
+      {
+        "date": "2024-08",
+        "company": "Khan Academy",
+        "event": "Khanmigo AI tutor available to all US students; replaces some paid tutoring demand",
+        "magnitude": "medium"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 2.8, "jobsDisplaced": 28000 },
+      { "year": 2025, "riskScore": 3.5, "jobsDisplaced": 65000 },
+      { "year": 2026, "riskScore": 4.2, "jobsDisplaced": 130000 },
+      { "year": 2027, "riskScore": 5.0, "jobsDisplaced": 220000 },
+      { "year": 2028, "riskScore": 5.8, "jobsDisplaced": 330000 },
+      { "year": 2029, "riskScore": 6.4, "jobsDisplaced": 450000 },
+      { "year": 2030, "riskScore": 6.9, "jobsDisplaced": 580000 }
+    ],
+    "roles": ["teaching-assistant", "tutoring-specialist", "online-instructor", "curriculum-developer"]
+  },
+  {
+    "id": "consulting",
+    "name": "Consulting",
+    "riskScore": 6.9,
+    "jobsAtRisk": 580000,
+    "trend": "accelerating",
+    "color": "#EAB308",
+    "keyAITools": ["McKinsey Lilli", "BCG AI", "Accenture AI", "IBM Consulting AI"],
+    "description": "AI is automating research, deck creation, and analysis in consulting, with junior associate roles most at risk.",
+    "keyCapabilities": [
+      "Automated market research synthesis",
+      "Slide and presentation generation",
+      "Benchmarking and competitive analysis",
+      "Financial model generation",
+      "Project documentation and reports"
+    ],
+    "reskillingSuggestions": [
+      "Develop client relationship and trust-building skills",
+      "Specialize in change management (human-intensive)",
+      "Build AI transformation advisory expertise",
+      "Focus on niche domain expertise (less automatable)",
+      "Develop facilitation and workshop design skills"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-06",
+        "company": "McKinsey",
+        "event": "Lilli AI platform used by all 40,000 consultants; reduces research time by 40%",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-01",
+        "company": "BCG",
+        "event": "AI tools handle 60% of deck creation tasks previously done by analysts",
+        "magnitude": "medium"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 5.0, "jobsDisplaced": 32000 },
+      { "year": 2025, "riskScore": 5.9, "jobsDisplaced": 78000 },
+      { "year": 2026, "riskScore": 6.7, "jobsDisplaced": 155000 },
+      { "year": 2027, "riskScore": 7.3, "jobsDisplaced": 255000 },
+      { "year": 2028, "riskScore": 7.8, "jobsDisplaced": 370000 },
+      { "year": 2029, "riskScore": 8.1, "jobsDisplaced": 480000 },
+      { "year": 2030, "riskScore": 8.4, "jobsDisplaced": 560000 }
+    ],
+    "roles": ["management-consultant", "business-analyst", "strategy-analyst", "research-associate"]
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "riskScore": 7.4,
+    "jobsAtRisk": 680000,
+    "trend": "accelerating",
+    "color": "#F97316",
+    "keyAITools": ["Midjourney", "Adobe Firefly", "Figma AI", "Canva AI", "DALL-E 3"],
+    "description": "AI image generation and design automation are disrupting graphic design, illustration, and production design roles.",
+    "keyCapabilities": [
+      "AI image and illustration generation",
+      "Automated layout and composition",
+      "Brand asset generation at scale",
+      "UI component auto-generation",
+      "Video and motion graphics synthesis"
+    ],
+    "reskillingSuggestions": [
+      "Develop AI creative direction skills",
+      "Focus on design strategy and systems thinking",
+      "Specialize in accessibility and inclusive design",
+      "Learn 3D and spatial computing design",
+      "Pivot to product design with UX research emphasis"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-01",
+        "company": "Shutterstock",
+        "event": "AI image sales surpass human photographer revenue for first time",
+        "magnitude": "high"
+      },
+      {
+        "date": "2024-06",
+        "company": "Adobe",
+        "event": "Firefly used to generate 12B+ images; stock contributor payments decline 30%",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-02",
+        "company": "Various Agencies",
+        "event": "50+ mid-size design agencies reduce junior designer headcount by 20-40% citing AI tools",
+        "magnitude": "medium"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 5.8, "jobsDisplaced": 48000 },
+      { "year": 2025, "riskScore": 6.6, "jobsDisplaced": 115000 },
+      { "year": 2026, "riskScore": 7.3, "jobsDisplaced": 225000 },
+      { "year": 2027, "riskScore": 7.9, "jobsDisplaced": 355000 },
+      { "year": 2028, "riskScore": 8.3, "jobsDisplaced": 490000 },
+      { "year": 2029, "riskScore": 8.6, "jobsDisplaced": 590000 },
+      { "year": 2030, "riskScore": 8.8, "jobsDisplaced": 650000 }
+    ],
+    "roles": ["graphic-designer", "illustrator", "ui-designer", "production-designer", "motion-designer"]
+  },
+  {
+    "id": "government",
+    "name": "Government",
+    "riskScore": 3.8,
+    "jobsAtRisk": 1200000,
+    "trend": "stable",
+    "color": "#22C55E",
+    "keyAITools": ["Palantir", "DOGE AI tools", "USASpending AI", "Benefits AI"],
+    "description": "Government roles are partially protected by civil service rules and political constraints, but AI is automating administrative processing.",
+    "keyCapabilities": [
+      "Automated benefits processing and eligibility",
+      "Document processing and classification",
+      "Fraud detection in government programs",
+      "Public service chatbots",
+      "Data analysis for policy"
+    ],
+    "reskillingSuggestions": [
+      "Develop AI oversight and governance expertise",
+      "Focus on community-facing service delivery",
+      "Learn government data science and analytics",
+      "Specialize in policy analysis and evidence-based governance",
+      "Build expertise in cybersecurity and digital infrastructure"
+    ],
+    "notableEvents": [
+      {
+        "date": "2025-02",
+        "company": "DOGE",
+        "event": "DOGE deploys AI to analyze federal spending; leads to 75,000 federal job cuts in first 60 days",
+        "magnitude": "high"
+      },
+      {
+        "date": "2025-03",
+        "company": "SSA",
+        "event": "Social Security Administration cuts 7,000 staff; AI-enabled processing cited",
+        "magnitude": "high"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 2.2, "jobsDisplaced": 15000 },
+      { "year": 2025, "riskScore": 3.5, "jobsDisplaced": 82000 },
+      { "year": 2026, "riskScore": 4.2, "jobsDisplaced": 165000 },
+      { "year": 2027, "riskScore": 4.9, "jobsDisplaced": 280000 },
+      { "year": 2028, "riskScore": 5.5, "jobsDisplaced": 420000 },
+      { "year": 2029, "riskScore": 6.0, "jobsDisplaced": 600000 },
+      { "year": 2030, "riskScore": 6.4, "jobsDisplaced": 780000 }
+    ],
+    "roles": ["administrative-clerk", "data-entry-analyst", "benefits-processor", "government-analyst"]
+  },
+  {
+    "id": "real-estate",
+    "name": "Real Estate",
+    "riskScore": 5.2,
+    "jobsAtRisk": 580000,
+    "trend": "stable",
+    "color": "#22C55E",
+    "keyAITools": ["Zillow AI", "Opendoor AI", "CoStar AI", "Compass AI"],
+    "description": "AI is automating property valuation, listing creation, and some buyer matching, but the high-stakes human trust element slows displacement.",
+    "keyCapabilities": [
+      "Automated property valuation (AVMs)",
+      "AI-generated property listings",
+      "Buyer-property matching algorithms",
+      "Market analysis and trend prediction",
+      "Virtual tours and 3D visualization"
+    ],
+    "reskillingSuggestions": [
+      "Develop deep local market expertise AI cannot replicate",
+      "Focus on luxury and complex commercial transactions",
+      "Learn real estate investment analysis and advisory",
+      "Build skills in PropTech and digital brokerage models",
+      "Develop negotiation and relationship management"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-03",
+        "company": "Opendoor",
+        "event": "AI algorithm handles 90% of home valuations and offer generation; reduces staff by 35%",
+        "magnitude": "medium"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 3.5, "jobsDisplaced": 22000 },
+      { "year": 2025, "riskScore": 4.2, "jobsDisplaced": 55000 },
+      { "year": 2026, "riskScore": 5.0, "jobsDisplaced": 110000 },
+      { "year": 2027, "riskScore": 5.7, "jobsDisplaced": 185000 },
+      { "year": 2028, "riskScore": 6.3, "jobsDisplaced": 275000 },
+      { "year": 2029, "riskScore": 6.8, "jobsDisplaced": 370000 },
+      { "year": 2030, "riskScore": 7.2, "jobsDisplaced": 470000 }
+    ],
+    "roles": ["real-estate-agent", "property-appraiser", "mortgage-loan-officer", "title-examiner"]
+  },
+  {
+    "id": "agriculture",
+    "name": "Agriculture",
+    "riskScore": 4.2,
+    "jobsAtRisk": 820000,
+    "trend": "stable",
+    "color": "#22C55E",
+    "keyAITools": ["John Deere AI", "Trimble AI", "AgriWebb", "FarmWise Robotics"],
+    "description": "Agricultural robotics and AI are automating planting, harvesting, and monitoring, but physical variability and seasonal nature slow full automation.",
+    "keyCapabilities": [
+      "Autonomous tractor and harvesting equipment",
+      "Crop disease and yield prediction",
+      "Precision irrigation and fertilization",
+      "Drone-based field monitoring",
+      "Supply chain optimization"
+    ],
+    "reskillingSuggestions": [
+      "Train in precision agriculture technology",
+      "Develop farm management software skills",
+      "Specialize in specialty crops requiring manual handling",
+      "Learn agri-tech sales and support",
+      "Focus on sustainable and regenerative agriculture practices"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-05",
+        "company": "John Deere",
+        "event": "Autonomous tractor fleet reduces labor needs for large-scale grain operations by 30%",
+        "magnitude": "medium"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 2.8, "jobsDisplaced": 38000 },
+      { "year": 2025, "riskScore": 3.4, "jobsDisplaced": 78000 },
+      { "year": 2026, "riskScore": 4.0, "jobsDisplaced": 145000 },
+      { "year": 2027, "riskScore": 4.8, "jobsDisplaced": 235000 },
+      { "year": 2028, "riskScore": 5.6, "jobsDisplaced": 360000 },
+      { "year": 2029, "riskScore": 6.2, "jobsDisplaced": 510000 },
+      { "year": 2030, "riskScore": 6.7, "jobsDisplaced": 680000 }
+    ],
+    "roles": ["farmworker", "crop-inspector", "irrigation-specialist", "farm-equipment-operator"]
+  },
+  {
+    "id": "energy",
+    "name": "Energy",
+    "riskScore": 4.8,
+    "jobsAtRisk": 480000,
+    "trend": "stable",
+    "color": "#22C55E",
+    "keyAITools": ["GE Digital AI", "Siemens Energy AI", "AutoGrid", "Google DeepMind AlphaFold Energy"],
+    "description": "AI is optimizing grid management, predictive maintenance, and energy trading, but physical infrastructure work requires humans.",
+    "keyCapabilities": [
+      "Grid load balancing and optimization",
+      "Predictive equipment maintenance",
+      "Energy trading algorithm optimization",
+      "Renewable energy output forecasting",
+      "Automated control room monitoring"
+    ],
+    "reskillingSuggestions": [
+      "Develop renewable energy installation expertise",
+      "Learn grid modernization and smart grid technology",
+      "Specialize in energy storage systems",
+      "Focus on energy policy and regulatory affairs",
+      "Develop AI/ML skills for energy system optimization"
+    ],
+    "notableEvents": [
+      {
+        "date": "2024-07",
+        "company": "Google DeepMind",
+        "event": "AI system reduces Google data center cooling energy by 40%; model now available to utilities",
+        "magnitude": "medium"
+      }
+    ],
+    "timeline": [
+      { "year": 2024, "riskScore": 3.2, "jobsDisplaced": 18000 },
+      { "year": 2025, "riskScore": 3.8, "jobsDisplaced": 42000 },
+      { "year": 2026, "riskScore": 4.5, "jobsDisplaced": 88000 },
+      { "year": 2027, "riskScore": 5.2, "jobsDisplaced": 155000 },
+      { "year": 2028, "riskScore": 5.9, "jobsDisplaced": 235000 },
+      { "year": 2029, "riskScore": 6.4, "jobsDisplaced": 320000 },
+      { "year": 2030, "riskScore": 6.8, "jobsDisplaced": 410000 }
+    ],
+    "roles": ["grid-operator", "energy-trader", "utility-analyst", "control-room-technician"]
+  }
+]

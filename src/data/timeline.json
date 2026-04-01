@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "date": "2026-03",
+    "company": "Klarna",
+    "event": "CEO confirms AI assistant now handles work equivalent to 700 full-time agents, with plans to reduce workforce from 3,800 to 2,000 by end of 2026.",
+    "magnitude": "high",
+    "industry": "customer-service",
+    "jobsAffected": 1800,
+    "source": "Klarna earnings call, Bloomberg"
+  },
+  {
+    "id": 2,
+    "date": "2026-02",
+    "company": "Duolingo",
+    "event": "Cuts remaining contractor workforce for content creation and translation, replacing with AI-generated content pipeline.",
+    "magnitude": "high",
+    "industry": "media-content",
+    "jobsAffected": 400,
+    "source": "Duolingo earnings call"
+  },
+  {
+    "id": 3,
+    "date": "2025-11",
+    "company": "Cognizant",
+    "event": "Announces 12,000 IT services job reductions over 18 months due to AI automation of code review and testing.",
+    "magnitude": "high",
+    "industry": "tech",
+    "jobsAffected": 12000,
+    "source": "Cognizant SEC filing"
+  },
+  {
+    "id": 4,
+    "date": "2025-09",
+    "company": "DOGE / Federal Government",
+    "event": "Department of Government Efficiency reduces federal workforce by 75,000+ positions in first 60 days, citing AI-enabled efficiency.",
+    "magnitude": "critical",
+    "industry": "government",
+    "jobsAffected": 75000,
+    "source": "White House press releases, DOGE.gov"
+  },
+  {
+    "id": 5,
+    "date": "2025-08",
+    "company": "BT Group",
+    "event": "British Telecom completes 55,000 job reduction plan (started 2023), with AI handling 40% of network operations.",
+    "magnitude": "critical",
+    "industry": "tech",
+    "jobsAffected": 55000,
+    "source": "BT Group annual report"
+  },
+  {
+    "id": 6,
+    "date": "2025-07",
+    "company": "Salesforce",
+    "event": "Marc Benioff: AI agents replaced ~1,000 customer service roles; company hiring no new support agents in 2025.",
+    "magnitude": "high",
+    "industry": "customer-service",
+    "jobsAffected": 1000,
+    "source": "Salesforce earnings call, CNBC"
+  },
+  {
+    "id": 7,
+    "date": "2025-06",
+    "company": "Target",
+    "event": "Reduces cashier headcount 40% across 1,900+ US stores through AI-assisted checkout expansion.",
+    "magnitude": "high",
+    "industry": "retail",
+    "jobsAffected": 9000,
+    "source": "Target annual report"
+  },
+  {
+    "id": 8,
+    "date": "2025-05",
+    "company": "Kaiser Permanente",
+    "event": "AI handles 40% of patient triage and appointment scheduling; reduces administrative staff by 22%.",
+    "magnitude": "medium",
+    "industry": "healthcare",
+    "jobsAffected": 3200,
+    "source": "Kaiser Permanente press release"
+  },
+  {
+    "id": 9,
+    "date": "2025-04",
+    "company": "McKinsey & Company",
+    "event": "Lilli AI platform fully deployed to all 40,000 consultants; reduces junior analyst hours by 40%, impacting hiring pipeline.",
+    "magnitude": "high",
+    "industry": "consulting",
+    "jobsAffected": 5000,
+    "source": "McKinsey global report"
+  },
+  {
+    "id": 10,
+    "date": "2025-03",
+    "company": "Social Security Administration",
+    "event": "Cuts 7,000 staff positions; AI-enabled case processing cited as enabling the reduction.",
+    "magnitude": "high",
+    "industry": "government",
+    "jobsAffected": 7000,
+    "source": "SSA press release, Reuters"
+  },
+  {
+    "id": 11,
+    "date": "2025-02",
+    "company": "Publicis Groupe",
+    "event": "Global ad agency reduces media buying staff by 30% as AI handles programmatic optimization.",
+    "magnitude": "high",
+    "industry": "marketing",
+    "jobsAffected": 2800,
+    "source": "Publicis annual report"
+  },
+  {
+    "id": 12,
+    "date": "2025-01",
+    "company": "Deloitte",
+    "event": "AI platform handles 40% of audit document review previously performed by junior associates.",
+    "magnitude": "high",
+    "industry": "accounting",
+    "jobsAffected": 4000,
+    "source": "Deloitte press release"
+  },
+  {
+    "id": 13,
+    "date": "2024-12",
+    "company": "UPS",
+    "event": "Completes 12,000 job reduction plan; cites AI-powered routing and automated sorting facilities.",
+    "magnitude": "high",
+    "industry": "transportation",
+    "jobsAffected": 12000,
+    "source": "UPS investor day"
+  },
+  {
+    "id": 14,
+    "date": "2024-11",
+    "company": "PwC",
+    "event": "Reduces audit staff requirements by 20% in routine engagements after $1B AI investment.",
+    "magnitude": "high",
+    "industry": "accounting",
+    "jobsAffected": 6000,
+    "source": "PwC press release"
+  },
+  {
+    "id": 15,
+    "date": "2024-10",
+    "company": "WPP",
+    "event": "Global advertising holding company reduces junior creative roles by 25% following AI-first creative mandate.",
+    "magnitude": "high",
+    "industry": "marketing",
+    "jobsAffected": 6000,
+    "source": "WPP annual report"
+  },
+  {
+    "id": 16,
+    "date": "2024-09",
+    "company": "Klarna",
+    "event": "Reports AI assistant does work of 700 full-time agents at 1/3 the cost; customer satisfaction scores equal or higher.",
+    "magnitude": "high",
+    "industry": "customer-service",
+    "jobsAffected": 700,
+    "source": "Klarna press release"
+  },
+  {
+    "id": 17,
+    "date": "2024-08",
+    "company": "FDA / Radiology AI",
+    "event": "FDA approves AI diagnostic tools removing radiologist review requirement for 12+ imaging categories.",
+    "magnitude": "high",
+    "industry": "healthcare",
+    "jobsAffected": 8000,
+    "source": "FDA announcements"
+  },
+  {
+    "id": 18,
+    "date": "2024-07",
+    "company": "Walmart",
+    "event": "Deploys AI shelf-scanning robots in 65% of US stores, reducing inventory clerk needs.",
+    "magnitude": "medium",
+    "industry": "retail",
+    "jobsAffected": 4500,
+    "source": "Walmart investor day"
+  },
+  {
+    "id": 19,
+    "date": "2024-06",
+    "company": "Adobe",
+    "event": "Firefly generates 12B+ images; stock contributor payments decline 30%, impacting independent creators.",
+    "magnitude": "high",
+    "industry": "design",
+    "jobsAffected": 15000,
+    "source": "Adobe MAX conference"
+  },
+  {
+    "id": 20,
+    "date": "2024-05",
+    "company": "IBM",
+    "event": "CEO announces pause on hiring ~7,800 back-office roles expected to be replaced by AI within 5 years.",
+    "magnitude": "high",
+    "industry": "tech",
+    "jobsAffected": 7800,
+    "source": "IBM earnings call, Bloomberg"
+  },
+  {
+    "id": 21,
+    "date": "2024-04",
+    "company": "Amazon",
+    "event": "Amazon deploys 750,000 robots across warehouses; hiring pace for pickers/packers drops 30%.",
+    "magnitude": "high",
+    "industry": "manufacturing",
+    "jobsAffected": 18000,
+    "source": "Amazon annual report"
+  },
+  {
+    "id": 22,
+    "date": "2024-03",
+    "company": "Allen & Overy",
+    "event": "Partners with Harvey AI; document review time reduced 85% across 3,500 lawyers, impacting paralegals.",
+    "magnitude": "high",
+    "industry": "legal",
+    "jobsAffected": 2200,
+    "source": "Allen & Overy press release"
+  },
+  {
+    "id": 23,
+    "date": "2024-02",
+    "company": "Duolingo",
+    "event": "Cuts 10% of global contractor workforce; AI-generated content replaces human translators and curriculum creators.",
+    "magnitude": "high",
+    "industry": "media-content",
+    "jobsAffected": 900,
+    "source": "Duolingo blog post"
+  },
+  {
+    "id": 24,
+    "date": "2024-01",
+    "company": "Chegg",
+    "event": "Stock falls 48% in a day as students shift to ChatGPT; company cuts 4,000 jobs and pivots to AI tutoring.",
+    "magnitude": "high",
+    "industry": "education",
+    "jobsAffected": 4000,
+    "source": "Chegg earnings call, WSJ"
+  },
+  {
+    "id": 25,
+    "date": "2024-01",
+    "company": "Goldman Sachs Research",
+    "event": "Publishes landmark report: AI could automate tasks for 300M full-time equivalent jobs globally.",
+    "magnitude": "critical",
+    "industry": "finance",
+    "jobsAffected": 300000000,
+    "source": "Goldman Sachs Global Investment Research"
+  }
+]

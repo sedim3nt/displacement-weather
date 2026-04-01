@@ -1,0 +1,512 @@
+[
+  {
+    "id": "customer-service-rep",
+    "title": "Customer Service Representative",
+    "industry": "customer-service",
+    "riskScore": 9.6,
+    "medianSalary": 37780,
+    "replacementTimeline": "2024-2026",
+    "aiTools": ["ChatGPT", "Claude", "Intercom AI", "Zendesk AI"],
+    "status": "actively-displaced"
+  },
+  {
+    "id": "call-center-agent",
+    "title": "Call Center Agent",
+    "industry": "customer-service",
+    "riskScore": 9.5,
+    "medianSalary": 35200,
+    "replacementTimeline": "2024-2026",
+    "aiTools": ["ElevenLabs Voice AI", "Cogito", "IBM Watson"],
+    "status": "actively-displaced"
+  },
+  {
+    "id": "tax-preparer",
+    "title": "Tax Preparer",
+    "industry": "accounting",
+    "riskScore": 9.3,
+    "medianSalary": 46290,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["Intuit AI", "TaxAI", "TurboTax AI"],
+    "status": "actively-displaced"
+  },
+  {
+    "id": "data-entry-analyst",
+    "title": "Data Entry Analyst",
+    "industry": "tech",
+    "riskScore": 9.2,
+    "medianSalary": 36000,
+    "replacementTimeline": "2024-2025",
+    "aiTools": ["GPT-4o", "Claude", "Automation Anywhere", "UiPath"],
+    "status": "actively-displaced"
+  },
+  {
+    "id": "bookkeeper",
+    "title": "Bookkeeper",
+    "industry": "accounting",
+    "riskScore": 9.1,
+    "medianSalary": 45860,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["Xero AI", "QuickBooks AI", "Booke.AI"],
+    "status": "actively-displaced"
+  },
+  {
+    "id": "copywriter",
+    "title": "Copywriter",
+    "industry": "media-content",
+    "riskScore": 8.9,
+    "medianSalary": 62580,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["ChatGPT", "Claude", "Jasper", "Copy.ai"],
+    "status": "actively-displaced"
+  },
+  {
+    "id": "translator",
+    "title": "Translator",
+    "industry": "media-content",
+    "riskScore": 8.8,
+    "medianSalary": 52330,
+    "replacementTimeline": "2024-2026",
+    "aiTools": ["DeepL", "Google Translate AI", "GPT-4o"],
+    "status": "actively-displaced"
+  },
+  {
+    "id": "insurance-underwriter",
+    "title": "Insurance Underwriter",
+    "industry": "insurance",
+    "riskScore": 8.7,
+    "medianSalary": 76770,
+    "replacementTimeline": "2026-2028",
+    "aiTools": ["Shift Technology", "Lemonade AI", "Tractable"],
+    "status": "at-risk"
+  },
+  {
+    "id": "financial-analyst",
+    "title": "Financial Analyst",
+    "industry": "finance",
+    "riskScore": 8.5,
+    "medianSalary": 81410,
+    "replacementTimeline": "2026-2028",
+    "aiTools": ["Bloomberg AI", "Kensho", "Palantir AIP"],
+    "status": "at-risk"
+  },
+  {
+    "id": "paralegal",
+    "title": "Paralegal",
+    "industry": "legal",
+    "riskScore": 8.4,
+    "medianSalary": 59200,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["Harvey", "Lexis+ AI", "Westlaw AI"],
+    "status": "actively-displaced"
+  },
+  {
+    "id": "graphic-designer",
+    "title": "Graphic Designer",
+    "industry": "design",
+    "riskScore": 8.3,
+    "medianSalary": 57990,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["Midjourney", "DALL-E 3", "Adobe Firefly"],
+    "status": "at-risk"
+  },
+  {
+    "id": "seo-specialist",
+    "title": "SEO Specialist",
+    "industry": "marketing",
+    "riskScore": 8.2,
+    "medianSalary": 54000,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["ChatGPT", "Jasper", "Clearscope AI"],
+    "status": "at-risk"
+  },
+  {
+    "id": "radiologist-assistant",
+    "title": "Radiologist Assistant",
+    "industry": "healthcare",
+    "riskScore": 8.1,
+    "medianSalary": 69100,
+    "replacementTimeline": "2027-2029",
+    "aiTools": ["PathAI", "Google Health AI", "Rad AI"],
+    "status": "at-risk"
+  },
+  {
+    "id": "loan-officer",
+    "title": "Loan Officer",
+    "industry": "finance",
+    "riskScore": 8.0,
+    "medianSalary": 63380,
+    "replacementTimeline": "2026-2028",
+    "aiTools": ["Blend AI", "Upstart AI", "Zest AI"],
+    "status": "at-risk"
+  },
+  {
+    "id": "cashier",
+    "title": "Cashier",
+    "industry": "retail",
+    "riskScore": 8.0,
+    "medianSalary": 27260,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["Amazon Go", "Standard AI", "AiFi"],
+    "status": "actively-displaced"
+  },
+  {
+    "id": "recruiter",
+    "title": "Recruiter",
+    "industry": "hr",
+    "riskScore": 7.9,
+    "medianSalary": 63490,
+    "replacementTimeline": "2026-2028",
+    "aiTools": ["HireVue", "Eightfold AI", "Paradox AI"],
+    "status": "at-risk"
+  },
+  {
+    "id": "junior-software-developer",
+    "title": "Junior Software Developer",
+    "industry": "tech",
+    "riskScore": 7.8,
+    "medianSalary": 75000,
+    "replacementTimeline": "2026-2028",
+    "aiTools": ["GitHub Copilot", "Cursor", "Devin"],
+    "status": "at-risk"
+  },
+  {
+    "id": "medical-transcriptionist",
+    "title": "Medical Transcriptionist",
+    "industry": "healthcare",
+    "riskScore": 7.7,
+    "medianSalary": 33290,
+    "replacementTimeline": "2024-2026",
+    "aiTools": ["Nuance DAX", "Whisper AI", "Suki AI"],
+    "status": "actively-displaced"
+  },
+  {
+    "id": "truck-driver",
+    "title": "Truck Driver",
+    "industry": "transportation",
+    "riskScore": 7.5,
+    "medianSalary": 48710,
+    "replacementTimeline": "2027-2030",
+    "aiTools": ["Waymo Via", "Aurora", "TuSimple", "Gatik"],
+    "status": "at-risk"
+  },
+  {
+    "id": "claims-adjuster",
+    "title": "Claims Adjuster",
+    "industry": "insurance",
+    "riskScore": 7.4,
+    "medianSalary": 67690,
+    "replacementTimeline": "2026-2028",
+    "aiTools": ["Tractable", "Shift Technology", "Snapsheet AI"],
+    "status": "at-risk"
+  },
+  {
+    "id": "hr-generalist",
+    "title": "HR Generalist",
+    "industry": "hr",
+    "riskScore": 7.3,
+    "medianSalary": 64530,
+    "replacementTimeline": "2026-2028",
+    "aiTools": ["Workday AI", "Rippling AI", "BambooHR AI"],
+    "status": "at-risk"
+  },
+  {
+    "id": "accountant",
+    "title": "Accountant",
+    "industry": "accounting",
+    "riskScore": 7.2,
+    "medianSalary": 78000,
+    "replacementTimeline": "2027-2029",
+    "aiTools": ["Intuit AI", "Sage Copilot", "Xero AI"],
+    "status": "at-risk"
+  },
+  {
+    "id": "content-creator",
+    "title": "Content Creator",
+    "industry": "media-content",
+    "riskScore": 7.2,
+    "medianSalary": 48000,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["ChatGPT", "Sora", "ElevenLabs", "Runway"],
+    "status": "at-risk"
+  },
+  {
+    "id": "inventory-clerk",
+    "title": "Inventory Clerk",
+    "industry": "retail",
+    "riskScore": 7.1,
+    "medianSalary": 32880,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["Amazon Robotics", "Walmart AI", "6 River Systems"],
+    "status": "actively-displaced"
+  },
+  {
+    "id": "email-marketing-specialist",
+    "title": "Email Marketing Specialist",
+    "industry": "marketing",
+    "riskScore": 7.0,
+    "medianSalary": 58000,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["HubSpot AI", "Klaviyo AI", "Mailchimp AI"],
+    "status": "at-risk"
+  },
+  {
+    "id": "qa-engineer",
+    "title": "QA Engineer",
+    "industry": "tech",
+    "riskScore": 6.9,
+    "medianSalary": 70000,
+    "replacementTimeline": "2026-2028",
+    "aiTools": ["GitHub Copilot", "Mabl AI", "Applitools AI"],
+    "status": "at-risk"
+  },
+  {
+    "id": "legal-researcher",
+    "title": "Legal Researcher",
+    "industry": "legal",
+    "riskScore": 6.8,
+    "medianSalary": 58000,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["Lexis+ AI", "Westlaw AI", "Casetext CoCounsel"],
+    "status": "at-risk"
+  },
+  {
+    "id": "delivery-driver",
+    "title": "Delivery Driver",
+    "industry": "transportation",
+    "riskScore": 6.7,
+    "medianSalary": 39520,
+    "replacementTimeline": "2027-2030",
+    "aiTools": ["Amazon Prime Air", "Nuro", "Starship Robots"],
+    "status": "at-risk"
+  },
+  {
+    "id": "assembly-worker",
+    "title": "Assembly Line Worker",
+    "industry": "manufacturing",
+    "riskScore": 6.6,
+    "medianSalary": 37120,
+    "replacementTimeline": "2025-2028",
+    "aiTools": ["Fanuc AI", "ABB Robotics", "Boston Dynamics"],
+    "status": "at-risk"
+  },
+  {
+    "id": "property-appraiser",
+    "title": "Property Appraiser",
+    "industry": "real-estate",
+    "riskScore": 6.5,
+    "medianSalary": 61340,
+    "replacementTimeline": "2027-2029",
+    "aiTools": ["Zillow Zestimate AI", "CoreLogic AI", "HouseCanary AI"],
+    "status": "at-risk"
+  },
+  {
+    "id": "management-consultant",
+    "title": "Management Consultant (Junior)",
+    "industry": "consulting",
+    "riskScore": 6.4,
+    "medianSalary": 92000,
+    "replacementTimeline": "2026-2028",
+    "aiTools": ["McKinsey Lilli", "BCG AI", "Accenture AI"],
+    "status": "at-risk"
+  },
+  {
+    "id": "motion-designer",
+    "title": "Motion Designer",
+    "industry": "design",
+    "riskScore": 6.3,
+    "medianSalary": 72000,
+    "replacementTimeline": "2026-2028",
+    "aiTools": ["Sora", "Runway Gen-3", "Adobe Firefly Video"],
+    "status": "at-risk"
+  },
+  {
+    "id": "administrative-clerk",
+    "title": "Administrative Clerk",
+    "industry": "government",
+    "riskScore": 6.2,
+    "medianSalary": 42000,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["Palantir", "IBM Watson", "GPT-4o"],
+    "status": "at-risk"
+  },
+  {
+    "id": "warehouse-worker",
+    "title": "Warehouse Worker",
+    "industry": "manufacturing",
+    "riskScore": 6.1,
+    "medianSalary": 34000,
+    "replacementTimeline": "2026-2029",
+    "aiTools": ["Amazon Robotics", "Symbotic", "Locus Robotics"],
+    "status": "at-risk"
+  },
+  {
+    "id": "business-analyst",
+    "title": "Business Analyst",
+    "industry": "consulting",
+    "riskScore": 6.0,
+    "medianSalary": 82000,
+    "replacementTimeline": "2027-2029",
+    "aiTools": ["GPT-4o", "Claude", "Microsoft Copilot"],
+    "status": "at-risk"
+  },
+  {
+    "id": "digital-marketing-analyst",
+    "title": "Digital Marketing Analyst",
+    "industry": "marketing",
+    "riskScore": 5.9,
+    "medianSalary": 61000,
+    "replacementTimeline": "2027-2029",
+    "aiTools": ["Google Analytics AI", "Adobe Sensei", "Salesforce Einstein"],
+    "status": "at-risk"
+  },
+  {
+    "id": "illustrator",
+    "title": "Illustrator",
+    "industry": "design",
+    "riskScore": 5.8,
+    "medianSalary": 58000,
+    "replacementTimeline": "2025-2027",
+    "aiTools": ["Midjourney", "Stable Diffusion", "Adobe Firefly"],
+    "status": "at-risk"
+  },
+  {
+    "id": "real-estate-agent",
+    "title": "Real Estate Agent",
+    "industry": "real-estate",
+    "riskScore": 5.5,
+    "medianSalary": 56000,
+    "replacementTimeline": "2028-2030",
+    "aiTools": ["Zillow AI", "Opendoor", "Compass AI"],
+    "status": "monitoring"
+  },
+  {
+    "id": "farmworker",
+    "title": "Farmworker",
+    "industry": "agriculture",
+    "riskScore": 5.2,
+    "medianSalary": 31000,
+    "replacementTimeline": "2027-2030",
+    "aiTools": ["FarmWise Robotics", "Harvest CROO", "Agrobot"],
+    "status": "monitoring"
+  },
+  {
+    "id": "grid-operator",
+    "title": "Grid Operator",
+    "industry": "energy",
+    "riskScore": 4.8,
+    "medianSalary": 72000,
+    "replacementTimeline": "2028-2030",
+    "aiTools": ["AutoGrid AI", "GE Digital", "Siemens Energy AI"],
+    "status": "monitoring"
+  },
+  {
+    "id": "ui-designer",
+    "title": "UI/UX Designer",
+    "industry": "design",
+    "riskScore": 4.5,
+    "medianSalary": 92000,
+    "replacementTimeline": "2028-2030",
+    "aiTools": ["Figma AI", "Uizard AI", "Galileo AI"],
+    "status": "monitoring"
+  },
+  {
+    "id": "curriculum-developer",
+    "title": "Curriculum Developer",
+    "industry": "education",
+    "riskScore": 4.2,
+    "medianSalary": 62000,
+    "replacementTimeline": "2028-2030",
+    "aiTools": ["Khan Academy AI", "Coursera AI", "ChatGPT"],
+    "status": "monitoring"
+  },
+  {
+    "id": "nurse",
+    "title": "Registered Nurse",
+    "industry": "healthcare",
+    "riskScore": 2.8,
+    "medianSalary": 81220,
+    "replacementTimeline": "2032+",
+    "aiTools": ["Clinical decision support tools"],
+    "status": "safe"
+  },
+  {
+    "id": "plumber",
+    "title": "Plumber",
+    "industry": "energy",
+    "riskScore": 2.1,
+    "medianSalary": 59880,
+    "replacementTimeline": "2035+",
+    "aiTools": ["Diagnostic AI tools"],
+    "status": "safe"
+  },
+  {
+    "id": "electrician",
+    "title": "Electrician",
+    "industry": "energy",
+    "riskScore": 2.0,
+    "medianSalary": 60040,
+    "replacementTimeline": "2035+",
+    "aiTools": ["Design AI tools"],
+    "status": "safe"
+  },
+  {
+    "id": "therapist",
+    "title": "Mental Health Therapist",
+    "industry": "healthcare",
+    "riskScore": 1.9,
+    "medianSalary": 51000,
+    "replacementTimeline": "2035+",
+    "aiTools": ["Woebot (supplementary)"],
+    "status": "safe"
+  },
+  {
+    "id": "teacher",
+    "title": "K-12 Teacher",
+    "industry": "education",
+    "riskScore": 1.8,
+    "medianSalary": 61730,
+    "replacementTimeline": "2035+",
+    "aiTools": ["Khan Academy AI (supplement)"],
+    "status": "safe"
+  },
+  {
+    "id": "social-worker",
+    "title": "Social Worker",
+    "industry": "government",
+    "riskScore": 1.6,
+    "medianSalary": 50470,
+    "replacementTimeline": "2035+",
+    "aiTools": ["Case management AI (supplement)"],
+    "status": "safe"
+  },
+  {
+    "id": "surgeon",
+    "title": "Surgeon",
+    "industry": "healthcare",
+    "riskScore": 1.5,
+    "medianSalary": 208000,
+    "replacementTimeline": "2040+",
+    "aiTools": ["Da Vinci Surgical System (assist)"],
+    "status": "safe"
+  },
+  {
+    "id": "construction-manager",
+    "title": "Construction Manager",
+    "industry": "manufacturing",
+    "riskScore": 1.4,
+    "medianSalary": 101480,
+    "replacementTimeline": "2040+",
+    "aiTools": ["Project management AI (assist)"],
+    "status": "safe"
+  },
+  {
+    "id": "firefighter",
+    "title": "Firefighter",
+    "industry": "government",
+    "riskScore": 1.2,
+    "medianSalary": 54650,
+    "replacementTimeline": "2040+",
+    "aiTools": ["Predictive routing AI (assist)"],
+    "status": "safe"
+  }
+]
