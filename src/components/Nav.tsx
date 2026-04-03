@@ -9,6 +9,7 @@ const links = [
   { href: "/roles", label: "Roles" },
   { href: "/map", label: "Map" },
   { href: "/timeline", label: "Timeline" },
+  { href: "/personal", label: "⚡ The Forecaster" },
 ];
 
 export default function Nav() {
