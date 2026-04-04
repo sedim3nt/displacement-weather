@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Displacement Weather
 
-## Getting Started
+Your personal AI displacement forecast — check your career weather before the storm hits.
 
-First, run the development server:
+**Live:** [displacement.spirittree.dev](https://displacement.spirittree.dev)
+**Stack:** Next.js, TailwindCSS, Recharts, Framer Motion, Fuse.js, OpenRouter
+**Status:** Active
+
+## What This Is
+
+Displacement Weather is a personalized career risk assessment tool. Users input their industry, role, years of experience, and skills, then receive an AI-generated "weather forecast" for their career — how likely automation is to affect their position, what timeline to expect, and what they can do about it.
+
+The landing page shows macro-level industry and role data with animated counters and trend indicators. The real value is the personalized forecast: specific, honest, and actionable rather than generic AI doom.
+
+## Features
+
+- 🌤️ **Personal Forecast** — AI-generated career displacement analysis
+- 🏭 **Industry Dashboard** — macro displacement trends by sector
+- 👤 **Role Browser** — risk data for specific job roles
+- 📊 **Animated Stats** — count-up animations for key displacement figures
+- 📈 **Trend Indicators** — up/down/stable trend visualization
+- ✨ **Framer Motion** — smooth page transitions and animations
+
+## AI Integration
+
+**Forecast Engine** — powered by OpenRouter, generates personalized displacement forecasts based on industry, role, experience, and skills. Provides timeline estimates, risk factors, and actionable recommendations.
+
+## Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Styling:** TailwindCSS
+- **Charts:** Recharts
+- **Search:** Fuse.js
+- **Animation:** Framer Motion
+- **Database:** None (static JSON data)
+- **AI:** OpenRouter (via Vercel AI SDK)
+- **Hosting:** Vercel
+
+## Local Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Variable | Description |
+|----------|-------------|
+| `AI_API_KEY` / `OPENROUTER_API_KEY` | OpenRouter API key for forecast generation |
+| `AI_BASE_URL` | AI provider base URL (defaults to OpenRouter) |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Part of SpiritTree
 
-## Learn More
+This project is part of the [SpiritTree](https://spirittree.dev) ecosystem — an autonomous AI operation building tools for the agent economy and displaced workers.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
