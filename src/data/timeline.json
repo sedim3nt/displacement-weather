@@ -1,23 +1,43 @@
 [
   {
     "id": 1,
-    "date": "2026-03",
-    "company": "Klarna",
-    "event": "CEO confirms AI assistant now handles work equivalent to 700 full-time agents, with plans to reduce workforce from 3,800 to 2,000 by end of 2026.",
-    "magnitude": "high",
-    "industry": "customer-service",
-    "jobsAffected": 1800,
-    "source": "Klarna earnings call, Bloomberg"
+    "date": "2026-04",
+    "company": "Meta",
+    "event": "Announces ~8,000 job cuts (about 10% of staff) to run more efficiently and offset heavy AI capex; ~7,000 workers redirected to new AI-focused teams. Cuts effective May 20, 2026.",
+    "magnitude": "critical",
+    "industry": "tech",
+    "jobsAffected": 8000,
+    "source": "CNN Business (cnn.com/2026/04/23/tech/meta-layoffs-10-percent-staff-ai); Bloomberg, Apr 23 2026"
   },
   {
     "id": 2,
-    "date": "2026-02",
-    "company": "Duolingo",
-    "event": "Cuts remaining contractor workforce for content creation and translation, replacing with AI-generated content pipeline.",
+    "date": "2026-04",
+    "company": "Challenger, Gray & Christmas",
+    "event": "April 2026 report: 88,387 announced US job cuts, with AI the leading cited reason for the second straight month at 21,490 cuts (26%); technology sector hardest hit (33,361).",
+    "magnitude": "critical",
+    "industry": "tech",
+    "jobsAffected": 21490,
+    "source": "CBS News reporting Challenger Gray & Christmas (cbsnews.com/news/ai-layoffs-job-cuts-challenger-report-april-2026)"
+  },
+  {
+    "id": 26,
+    "date": "2026-05",
+    "company": "Cloudflare",
+    "event": "Cuts more than 1,100 jobs (~20% of workforce), citing a 600%+ rise in internal AI usage over three months and a restructuring around the 'agentic AI era.'",
     "magnitude": "high",
-    "industry": "media-content",
-    "jobsAffected": 400,
-    "source": "Duolingo earnings call"
+    "industry": "tech",
+    "jobsAffected": 1100,
+    "source": "Yahoo Finance (finance.yahoo.com/sectors/technology/articles/cloudflare-announces-more-1-100-142127862.html), May 7 2026"
+  },
+  {
+    "id": 27,
+    "date": "2026-03",
+    "company": "Oracle",
+    "event": "Lays off up to ~30,000 employees (about 18% of global workforce) on March 31 to redirect cash flow toward AI data-center buildout tied to the Stargate compute contract.",
+    "magnitude": "critical",
+    "industry": "tech",
+    "jobsAffected": 30000,
+    "source": "CNBC (cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html), Mar 31 2026"
   },
   {
     "id": 3,

@@ -4,7 +4,7 @@
     "title": "Customer Service Representative",
     "industry": "customer-service",
     "riskScore": 9.6,
-    "medianSalary": 37780,
+    "medianSalary": 42830,
     "replacementTimeline": "2024-2026",
     "aiTools": ["ChatGPT", "Claude", "Intercom AI", "Zendesk AI"],
     "status": "actively-displaced"
@@ -14,7 +14,7 @@
     "title": "Call Center Agent",
     "industry": "customer-service",
     "riskScore": 9.5,
-    "medianSalary": 35200,
+    "medianSalary": 42830,
     "replacementTimeline": "2024-2026",
     "aiTools": ["ElevenLabs Voice AI", "Cogito", "IBM Watson"],
     "status": "actively-displaced"
@@ -24,7 +24,7 @@
     "title": "Tax Preparer",
     "industry": "accounting",
     "riskScore": 9.3,
-    "medianSalary": 46290,
+    "medianSalary": 50560,
     "replacementTimeline": "2025-2027",
     "aiTools": ["Intuit AI", "TaxAI", "TurboTax AI"],
     "status": "actively-displaced"
@@ -44,7 +44,7 @@
     "title": "Bookkeeper",
     "industry": "accounting",
     "riskScore": 9.1,
-    "medianSalary": 45860,
+    "medianSalary": 49210,
     "replacementTimeline": "2025-2027",
     "aiTools": ["Xero AI", "QuickBooks AI", "Booke.AI"],
     "status": "actively-displaced"
@@ -54,7 +54,7 @@
     "title": "Copywriter",
     "industry": "media-content",
     "riskScore": 8.9,
-    "medianSalary": 62580,
+    "medianSalary": 72270,
     "replacementTimeline": "2025-2027",
     "aiTools": ["ChatGPT", "Claude", "Jasper", "Copy.ai"],
     "status": "actively-displaced"
@@ -64,7 +64,7 @@
     "title": "Translator",
     "industry": "media-content",
     "riskScore": 8.8,
-    "medianSalary": 52330,
+    "medianSalary": 59440,
     "replacementTimeline": "2024-2026",
     "aiTools": ["DeepL", "Google Translate AI", "GPT-4o"],
     "status": "actively-displaced"
@@ -74,7 +74,7 @@
     "title": "Insurance Underwriter",
     "industry": "insurance",
     "riskScore": 8.7,
-    "medianSalary": 76770,
+    "medianSalary": 79880,
     "replacementTimeline": "2026-2028",
     "aiTools": ["Shift Technology", "Lemonade AI", "Tractable"],
     "status": "at-risk"
@@ -84,7 +84,7 @@
     "title": "Financial Analyst",
     "industry": "finance",
     "riskScore": 8.5,
-    "medianSalary": 81410,
+    "medianSalary": 101350,
     "replacementTimeline": "2026-2028",
     "aiTools": ["Bloomberg AI", "Kensho", "Palantir AIP"],
     "status": "at-risk"
@@ -94,7 +94,7 @@
     "title": "Paralegal",
     "industry": "legal",
     "riskScore": 8.4,
-    "medianSalary": 59200,
+    "medianSalary": 61010,
     "replacementTimeline": "2025-2027",
     "aiTools": ["Harvey", "Lexis+ AI", "Westlaw AI"],
     "status": "actively-displaced"
@@ -104,7 +104,7 @@
     "title": "Graphic Designer",
     "industry": "design",
     "riskScore": 8.3,
-    "medianSalary": 57990,
+    "medianSalary": 61300,
     "replacementTimeline": "2025-2027",
     "aiTools": ["Midjourney", "DALL-E 3", "Adobe Firefly"],
     "status": "at-risk"
@@ -134,7 +134,7 @@
     "title": "Loan Officer",
     "industry": "finance",
     "riskScore": 8.0,
-    "medianSalary": 63380,
+    "medianSalary": 74180,
     "replacementTimeline": "2026-2028",
     "aiTools": ["Blend AI", "Upstart AI", "Zest AI"],
     "status": "at-risk"
@@ -154,7 +154,7 @@
     "title": "Recruiter",
     "industry": "hr",
     "riskScore": 7.9,
-    "medianSalary": 63490,
+    "medianSalary": 72910,
     "replacementTimeline": "2026-2028",
     "aiTools": ["HireVue", "Eightfold AI", "Paradox AI"],
     "status": "at-risk"
@@ -174,7 +174,7 @@
     "title": "Medical Transcriptionist",
     "industry": "healthcare",
     "riskScore": 7.7,
-    "medianSalary": 33290,
+    "medianSalary": 37550,
     "replacementTimeline": "2024-2026",
     "aiTools": ["Nuance DAX", "Whisper AI", "Suki AI"],
     "status": "actively-displaced"
@@ -184,7 +184,7 @@
     "title": "Truck Driver",
     "industry": "transportation",
     "riskScore": 7.5,
-    "medianSalary": 48710,
+    "medianSalary": 57440,
     "replacementTimeline": "2027-2030",
     "aiTools": ["Waymo Via", "Aurora", "TuSimple", "Gatik"],
     "status": "at-risk"
@@ -194,7 +194,7 @@
     "title": "Claims Adjuster",
     "industry": "insurance",
     "riskScore": 7.4,
-    "medianSalary": 67690,
+    "medianSalary": 76790,
     "replacementTimeline": "2026-2028",
     "aiTools": ["Tractable", "Shift Technology", "Snapsheet AI"],
     "status": "at-risk"
@@ -214,7 +214,7 @@
     "title": "Accountant",
     "industry": "accounting",
     "riskScore": 7.2,
-    "medianSalary": 78000,
+    "medianSalary": 81680,
     "replacementTimeline": "2027-2029",
     "aiTools": ["Intuit AI", "Sage Copilot", "Xero AI"],
     "status": "at-risk"
@@ -234,7 +234,7 @@
     "title": "Inventory Clerk",
     "industry": "retail",
     "riskScore": 7.1,
-    "medianSalary": 32880,
+    "medianSalary": 46120,
     "replacementTimeline": "2025-2027",
     "aiTools": ["Amazon Robotics", "Walmart AI", "6 River Systems"],
     "status": "actively-displaced"
@@ -274,7 +274,7 @@
     "title": "Delivery Driver",
     "industry": "transportation",
     "riskScore": 6.7,
-    "medianSalary": 39520,
+    "medianSalary": 44140,
     "replacementTimeline": "2027-2030",
     "aiTools": ["Amazon Prime Air", "Nuro", "Starship Robots"],
     "status": "at-risk"
@@ -284,7 +284,7 @@
     "title": "Assembly Line Worker",
     "industry": "manufacturing",
     "riskScore": 6.6,
-    "medianSalary": 37120,
+    "medianSalary": 43570,
     "replacementTimeline": "2025-2028",
     "aiTools": ["Fanuc AI", "ABB Robotics", "Boston Dynamics"],
     "status": "at-risk"
@@ -294,7 +294,7 @@
     "title": "Property Appraiser",
     "industry": "real-estate",
     "riskScore": 6.5,
-    "medianSalary": 61340,
+    "medianSalary": 65420,
     "replacementTimeline": "2027-2029",
     "aiTools": ["Zillow Zestimate AI", "CoreLogic AI", "HouseCanary AI"],
     "status": "at-risk"
@@ -334,7 +334,7 @@
     "title": "Warehouse Worker",
     "industry": "manufacturing",
     "riskScore": 6.1,
-    "medianSalary": 34000,
+    "medianSalary": 37680,
     "replacementTimeline": "2026-2029",
     "aiTools": ["Amazon Robotics", "Symbotic", "Locus Robotics"],
     "status": "at-risk"
@@ -374,7 +374,7 @@
     "title": "Real Estate Agent",
     "industry": "real-estate",
     "riskScore": 5.5,
-    "medianSalary": 56000,
+    "medianSalary": 56320,
     "replacementTimeline": "2028-2030",
     "aiTools": ["Zillow AI", "Opendoor", "Compass AI"],
     "status": "monitoring"
@@ -384,7 +384,7 @@
     "title": "Farmworker",
     "industry": "agriculture",
     "riskScore": 5.2,
-    "medianSalary": 31000,
+    "medianSalary": 35980,
     "replacementTimeline": "2027-2030",
     "aiTools": ["FarmWise Robotics", "Harvest CROO", "Agrobot"],
     "status": "monitoring"
@@ -424,7 +424,7 @@
     "title": "Registered Nurse",
     "industry": "healthcare",
     "riskScore": 2.8,
-    "medianSalary": 81220,
+    "medianSalary": 93600,
     "replacementTimeline": "2032+",
     "aiTools": ["Clinical decision support tools"],
     "status": "safe"
@@ -434,7 +434,7 @@
     "title": "Plumber",
     "industry": "energy",
     "riskScore": 2.1,
-    "medianSalary": 59880,
+    "medianSalary": 62970,
     "replacementTimeline": "2035+",
     "aiTools": ["Diagnostic AI tools"],
     "status": "safe"
@@ -444,7 +444,7 @@
     "title": "Electrician",
     "industry": "energy",
     "riskScore": 2.0,
-    "medianSalary": 60040,
+    "medianSalary": 62350,
     "replacementTimeline": "2035+",
     "aiTools": ["Design AI tools"],
     "status": "safe"
@@ -454,7 +454,7 @@
     "title": "Mental Health Therapist",
     "industry": "healthcare",
     "riskScore": 1.9,
-    "medianSalary": 51000,
+    "medianSalary": 59190,
     "replacementTimeline": "2035+",
     "aiTools": ["Woebot (supplementary)"],
     "status": "safe"
@@ -474,7 +474,7 @@
     "title": "Social Worker",
     "industry": "government",
     "riskScore": 1.6,
-    "medianSalary": 50470,
+    "medianSalary": 61330,
     "replacementTimeline": "2035+",
     "aiTools": ["Case management AI (supplement)"],
     "status": "safe"
@@ -494,7 +494,7 @@
     "title": "Construction Manager",
     "industry": "manufacturing",
     "riskScore": 1.4,
-    "medianSalary": 101480,
+    "medianSalary": 106980,
     "replacementTimeline": "2040+",
     "aiTools": ["Project management AI (assist)"],
     "status": "safe"
@@ -504,7 +504,7 @@
     "title": "Firefighter",
     "industry": "government",
     "riskScore": 1.2,
-    "medianSalary": 54650,
+    "medianSalary": 59530,
     "replacementTimeline": "2040+",
     "aiTools": ["Predictive routing AI (assist)"],
     "status": "safe"

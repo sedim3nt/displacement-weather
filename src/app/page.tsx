@@ -4,6 +4,25 @@ import Link from "next/link";
 import { TrendingUp, TrendingDown, Minus, AlertTriangle, ArrowRight } from "lucide-react";
 import industries from "@/data/industries.json";
 import roles from "@/data/roles.json";
+import timeline from "@/data/timeline.json";
+
+// Current quarter label derived from the date, so it never freezes.
+function currentQuarterLabel(date = new Date()) {
+  const q = Math.floor(date.getMonth() / 3) + 1;
+  return `Q${q} ${date.getFullYear()}`;
+}
+
+// Headline figure derived from the actual tracked displacement events.
+// Sums jobsAffected across timeline.json, excluding outlier research
+// projections (e.g. the 300M global Goldman Sachs estimate) that are not
+// concrete US displacement events.
+const TRACKED_DISPLACEMENT_TOTAL = timeline
+  .filter((e) => e.jobsAffected < 1_000_000)
+  .reduce((sum, e) => sum + (e.jobsAffected || 0), 0);
+
+// Total US jobs the dashboard currently classifies as at risk, summed
+// from the tracked industries.
+const TOTAL_JOBS_AT_RISK = industries.reduce((sum, i) => sum + i.jobsAtRisk, 0);
 
 function useCountUp(target: number, duration = 2500) {
   const [count, setCount] = useState(0);
@@ -101,8 +120,9 @@ function RiskBadge({ score }: { score: number }) {
 }
 
 export default function DashboardPage() {
-  const jobsCount = useCountUp(8_400_000, 2800);
+  const jobsCount = useCountUp(TOTAL_JOBS_AT_RISK, 2800);
   const severityScore = 7.6;
+  const quarterLabel = currentQuarterLabel();
 
   const topRiskyRoles = [...roles]
     .sort((a, b) => b.riskScore - a.riskScore)
@@ -142,7 +162,7 @@ export default function DashboardPage() {
             <span style={{ width: 7, height: 7, borderRadius: "50%", background: "#EF4444",
               boxShadow: "0 0 6px #EF4444", animation: "pulse 2s infinite" }} />
             <span style={{ fontSize: 12, fontWeight: 600, color: "#EF4444", letterSpacing: "0.06em" }}>
-              LIVE TRACKING · Q1 2026
+              LIVE TRACKING · {quarterLabel}
             </span>
           </div>
 
@@ -160,7 +180,7 @@ export default function DashboardPage() {
             padding: "32px 40px", display: "inline-block",
           }}>
             <div style={{ fontSize: 11, fontWeight: 600, color: "#666666", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 8 }}>
-              Estimated US Jobs Affected by AI — This Quarter
+              Estimated US Jobs at Risk from AI — Tracked Industries
             </div>
             <div style={{ fontSize: "clamp(3rem, 6vw, 5rem)", fontWeight: 700, letterSpacing: "-0.05em", lineHeight: 1,
               backgroundImage: "linear-gradient(135deg, #EF4444, #F97316)",
@@ -169,7 +189,7 @@ export default function DashboardPage() {
               {formatNumber(jobsCount)}
             </div>
             <div style={{ fontSize: 13, color: "#666666", marginTop: 8 }}>
-              displacement events since Jan 2026 · Source: BLS, Challenger Gray & Christmas
+              {formatNumber(TRACKED_DISPLACEMENT_TOTAL)}+ displacement events logged to date · Source: BLS, Challenger Gray &amp; Christmas
             </div>
           </div>
         </div>
@@ -188,7 +208,7 @@ export default function DashboardPage() {
           </div>
           <SeverityGauge score={severityScore} />
           <div style={{ marginTop: 20, fontSize: 12, color: "#555555", textAlign: "center", lineHeight: 1.5 }}>
-            Based on Q1 2026 displacement velocity, breadth, and acceleration across all tracked industries.
+            Based on {quarterLabel} displacement velocity, breadth, and acceleration across all tracked industries.
           </div>
         </div>
 
