@@ -37,7 +37,14 @@ export default function PersonalForecastPage() {
       });
 
       if (!res.ok) {
-        throw new Error("Failed to generate forecast");
+        let message = "Failed to generate forecast. Please try again.";
+        try {
+          const data = await res.json();
+          if (data?.error) message = data.error;
+        } catch {
+          /* non-JSON response — keep default message */
+        }
+        throw new Error(message);
       }
 
       const reader = res.body?.getReader();
@@ -54,7 +61,11 @@ export default function PersonalForecastPage() {
       }
     } catch (err: unknown) {
       if (err instanceof Error && err.name === "AbortError") return;
-      setError("Failed to generate forecast. Please try again.");
+      setError(
+        err instanceof Error && err.message
+          ? err.message
+          : "Failed to generate forecast. Please try again."
+      );
     } finally {
       setLoading(false);
     }
